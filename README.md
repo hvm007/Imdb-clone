@@ -1,132 +1,144 @@
-# Imdb-clone
-Commands to Start the Application: 
-● Run main_app.py 
-● From the terminal: Run main_app.py 
-● Activate the virtual environment: .\venv\Scripts\activate 
-Operating Systems That are Supported: 
-● Windows 
-Libraries To Install: 
-● ttk bootstrap 
-● Pandas 
-● Matplotlib 
-● Fuzzwuzzy 
-● python-Levenshtein 
-● Tkinter 
-● Random 
-● Datetime 
-● Numpy 
-API used: 
-● Omdb API —> movies data retrieval 
-● Tmdb API —> ratings retrieval 
-Features Implemented: 
-● Login Page 
-● New Registration Page 
-● Search Bar 
-● User bar upon click will show the user info 
-● Main page containing top 12 movies 
-● Click on any movie: Get info about plot, director, cast, 
-genre, synopsis, duration, imdb rating, release year 
-● Sort option to sort by year and genre 
-● Wishlist containing movies we are interested in 
-● Line graph indicating the rating fluctuation over 1st day, 
-1st month, 3 months, 6 months, and 1 year 
-● Creative Mode containing Bar graph containing average imdb 
-ratings for each category: Actor, Actress, Director, Genre 
-● Report generation containing 3 features: 2 movies comparison, 
-top 5 movies by each genre, top 5 movies by each year asking 
-user to give input 
-● Even when we log out, the movies saved in wishlist will be 
-saved for next time use 
-Description of Modules and Classes given in code 
-Work Done by Each Member:
-Harshvardhan Mishra: 
-Objective 
-To manage the user interface (UI) design and implement automation for the 
-IMDb project. 
-Key Features 
-• User Experience Enhancement:  
-o Designed intuitive and visually appealing UI elements to improve 
-user engagement. 
-o Conducted user research and usability testing to identify pain 
-points and areas for improvement. 
-o Implemented responsive design principles to ensure a seamless 
-experience across various devices and screen sizes. 
-• Workflow Streamlining:  
-o Analyzed existing workflows to identify inefficiencies and 
-bottlenecks. 
-o Developed and implemented automated solutions to reduce manual 
-intervention and speed up processes. 
-o Created detailed documentation and training materials to support 
-the adoption of new workflows. 
-• Seamless Integration:  
-o Collaborated with cross-functional teams to ensure the smooth 
-integration of automated processes. 
-o Utilized APIs and other integration tools to connect different 
-systems and streamline data flow. 
-Value Added 
-These efforts resulted in a more efficient and user-friendly application, 
-significantly enhancing overall user satisfaction and operational efficiency. 
-Divy Dobariya: 
-Objective 
-To automate backend processes and manage user data efficiently, while 
-ensuring seamless navigation within the application. 
-Key Features 
-• Backend Automation and User Data Management: 
-• Automated Backend Processes: Efficiently handled user data 
-storage and retrieval through automation. 
-• Persistent Storage Solution: Implemented a secure and 
-organized management system for user information using a 
-database or file system. 
-• Dynamic Data Access: Enabled dynamic access to and updates of 
-user data, ensuring availability throughout the application. 
-• Connecting Pages and Managing Navigation: 
-• Seamless Page Connection: Established smooth transitions 
-between different pages of the application. 
-• Effective Routing Mechanisms: Implemented routing mechanisms 
-to enhance user navigation and workflow efficiency. 
-• Improved User Experience: Enhanced the overall user 
-experience by ensuring easy and intuitive navigation. 
-Value Added 
-These efforts resulted in a more efficient and user-friendly application, 
-significantly enhancing overall user satisfaction and operational efficiency. 
-Tejas Kollipara: 
-Objective 
-Developed a tool to analyze and visualize movie data interactively. 
-Key Features 
-1. Bar Graphs 
-○ Displayed average ratings by genre, actor, actress, and 
-director. 
-2. Movie Comparison 
-○ Enabled users to compare two movies on ratings, genre, 
-gross, and other metrics. 
-3. Top 5 Movies 
-○ By Year: Listed top 5 movies for a user-entered year. 
-○ By Genre: Listed top 5 movies for a user-entered genre. 
-4. Rating Trends 
-o Used line graphs to track movie ratings over time, highlighting 
-trends. 
-Value Added 
-● Simplified complex data with clear visualizations. 
-● Interactive tools for personalized analysis. 
-● Enhanced user insights into movie performance. 
-G. Karthikeya: 
-Objective 
-To fetch and consolidate detailed movie data using 
-TMDb and OMDb APIs. 
-Work Summary  
-1. API Integration 
-○ Connected to TMDb and OMDb APIs to retrieve movie 
-details. 
-2. Data Collected 
-○ Director, Plot, Synopsis, Genre, Ratings, Cast, Runtime, 
-Budget, Collection. 
-3. Data Validation 
-○ Ensured accuracy, handled missing fields, and formatted data 
-for structured storage. 
-4. Storage 
-○ Organized data in a database for easy querying and analysis. 
-Value Delivered 
-● Centralized, accurate movie data. 
-● Enabled detailed exploration across genres, ratings, cast, 
-and financial metric
- 
+# IMDb-Clone
+
+## Commands to Start the Application:
+- **Run main_app.py**
+  - From the terminal: Run `main_app.py`.
+  - Activate the virtual environment: `.\venv\Scripts\activate`.
+
+## Operating Systems Supported:
+- Windows
+
+## Libraries To Install:
+- ttkbootstrap
+- pandas
+- matplotlib
+- fuzzywuzzy
+- python-Levenshtein
+- tkinter
+- random
+- datetime
+- numpy
+
+## APIs Used:
+- **OMDb API**: For movies data retrieval.
+- **TMDb API**: For ratings retrieval.
+
+## Features Implemented:
+- **Login Page**
+- **New Registration Page**
+- **Search Bar**
+  - Displays user info upon click.
+- **Main Page**
+  - Shows top 12 movies.
+  - Clicking on any movie displays:
+    - Plot
+    - Director
+    - Cast
+    - Genre
+    - Synopsis
+    - Duration
+    - IMDb rating
+    - Release year
+- **Sort Options**
+  - Sort by year and genre.
+- **Wishlist**
+  - Save movies of interest.
+  - Wishlist persists across sessions, even after logging out.
+- **Line Graphs**
+  - Displays rating fluctuations over specific periods: 1st day, 1st month, 3 months, 6 months, and 1 year.
+- **Creative Mode**
+  - Bar graphs show average IMDb ratings for:
+    - Actor
+    - Actress
+    - Director
+    - Genre
+- **Report Generation**
+  - Compare two movies on various metrics.
+  - Generate top 5 movies by genre.
+  - Generate top 5 movies by year (user-specified).
+
+## Description of Modules and Classes:
+Detailed documentation of all modules and classes is provided in the codebase.
+
+## Work Done by Each Member:
+
+### **Harshvardhan Mishra**
+#### Objective:
+To manage the user interface (UI) design and implement automation for the IMDb project.
+
+#### Key Features:
+1. **User Experience Enhancement:**
+   - Designed intuitive and visually appealing UI elements to improve user engagement.
+   - Conducted user research and usability testing to identify pain points.
+   - Implemented responsive design principles for seamless experiences across devices.
+2. **Workflow Streamlining:**
+   - Analyzed workflows for inefficiencies and bottlenecks.
+   - Automated processes to reduce manual intervention.
+   - Created documentation and training materials to support new workflows.
+3. **Seamless Integration:**
+   - Collaborated with cross-functional teams for smooth process integration.
+   - Used APIs and tools to streamline data flow.
+
+#### Value Added:
+Resulted in a more efficient and user-friendly application, significantly enhancing user satisfaction.
+
+---
+
+### **Divy Dobariya**
+#### Objective:
+To automate backend processes and manage user data efficiently, ensuring seamless navigation.
+
+#### Key Features:
+1. **Backend Automation and User Data Management:**
+   - Automated user data storage and retrieval.
+   - Implemented secure, organized management systems using databases or file systems.
+   - Enabled dynamic access and updates of user data.
+2. **Connecting Pages and Managing Navigation:**
+   - Ensured smooth transitions between application pages.
+   - Implemented routing mechanisms for efficient navigation.
+   - Enhanced user experience with intuitive workflows.
+
+#### Value Added:
+Resulted in an efficient, user-friendly application with improved operational efficiency.
+
+---
+
+### **Tejas Kollipara**
+#### Objective:
+Developed tools to analyze and visualize movie data interactively.
+
+#### Key Features:
+1. **Bar Graphs:**
+   - Displayed average ratings by genre, actor, actress, and director.
+2. **Movie Comparison:**
+   - Enabled comparison of two movies on ratings, genre, and other metrics.
+3. **Top 5 Movies:**
+   - Listed top 5 movies by user-specified year or genre.
+4. **Rating Trends:**
+   - Used line graphs to track movie rating fluctuations over time.
+
+#### Value Added:
+- Simplified complex data visualization.
+- Provided interactive tools for personalized analysis.
+- Enhanced user insights into movie performance.
+
+---
+
+### **G. Karthikeya**
+#### Objective:
+To fetch and consolidate detailed movie data using TMDb and OMDb APIs.
+
+#### Work Summary:
+1. **API Integration:**
+   - Connected to TMDb and OMDb APIs for movie details retrieval.
+2. **Data Collected:**
+   - Retrieved details such as Director, Plot, Synopsis, Genre, Ratings, Cast, Runtime, Budget, and Collection.
+3. **Data Validation:**
+   - Ensured accuracy and handled missing fields.
+4. **Storage:**
+   - Organized data into databases for easy querying and analysis.
+
+#### Value Delivered:
+- Centralized, accurate movie data storage.
+- Enabled detailed exploration across various metrics.
+
